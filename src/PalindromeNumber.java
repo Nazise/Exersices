@@ -1,6 +1,6 @@
 public class PalindromeNumber {
     public static void main(String[] args) {
-        int[] arr = {1, 6, 9, 4, 43, 77};
+        int[] arr = {1, 6, 9, 4, 43, 77, 123, 676};
         for (int num : arr) {
             System.out.println(num + " isPalindrome = " + isPalindrome(num));
         }
