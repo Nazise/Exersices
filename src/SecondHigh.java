@@ -19,7 +19,7 @@ public class SecondHigh {
         int max = arr[0];
         int sec_max = arr[0];
 
-        for (int i = 0; i < length; i++) {
+        for (int i = 1; i < length; i++) {
             if (arr[i] > max) {
                 sec_max = max;
                 max = arr[i];
